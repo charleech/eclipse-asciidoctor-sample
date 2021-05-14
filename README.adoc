@@ -1,0 +1,13 @@
+= The Eclipse with Asciidoctor Sample
+Doc Writer <doc@example.com>
+// ============================================================================
+// The following attributes must not have a new line before then.
+// ============================================================================
+:doctype: book
+:toc: left
+:toclevels: 6
+// ============================================================================
+
+== eclipse-asciidoctor-sample
+
+The demonstration to use the  de-jcup / eclipse-asciidoctor-editor.
