@@ -1,0 +1,19 @@
+= The Eclipse with Asciidoctor Sample : Sample A
+Doc Writer <doc@example.com>
+// ============================================================================
+// The following attributes must not have a new line before then.
+// ============================================================================
+:doctype: book
+:toc: left
+:toclevels: 6
+// ============================================================================
+
+An introduction to http://asciidoc.org[AsciiDoc].
+
+== First Section
+
+* item 1
+* item 2
+
+[source,ruby]
+puts "Hello, World!"

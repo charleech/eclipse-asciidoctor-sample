@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>app.github.charleech</groupId>    
+    <artifactId>eclipse-asciidoctor-sample</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <name>eclipse-asciidoctor-sample</name>
+
+    <url>${my.project.url}</url>
+   
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <my.project.description>
+            This is a project which provide the demonstration for using the 
+            Eclipse with  de-jcup/eclipse-asciidoctor-editor. 
+        </my.project.description>
+        <my.project.url>https://github.com/charleech/eclipse-asciidoctor-sample</my.project.url>
+        <my.project.git.url>https://github.com/charleech/eclipse-asciidoctor-sample</my.project.git.url>
+
+    </properties>
+
+    <description>${my.project.description}</description>
+
+    <inceptionYear>${my.project.inception.year}</inceptionYear>
+
+    <repositories>
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>bintray</id>
+            <url>https://jcenter.bintray.com</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://github.com/charleech/arquillian-junit5-payara/blob/main/LICENSE</url>
+            <distribution>repo</distribution>
+            <comments>The Payara Evaluation</comments>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>
+            scm:git:${my.project.git.url}
+        </connection>
+        <developerConnection>
+            scm:git:${my.project.git.url}
+        </developerConnection>
+        <url>${my.project.gitlab.url}</url>
+    </scm>
+    
+    <developers>
+        <developer>
+            <id>charlee.ch</id>
+            <name>Charlee Chitsuk</name>
+            <email>charlee.ch@gmail.com</email>
+            <url>http://th.gravatar.com/charleech</url>
+            <timezone>+7</timezone>
+            <properties>
+                <picUrl>http://th.gravatar.com/charleech</picUrl>
+            </properties>
+        </developer>
+    </developers>
+  <modules>
+    <module>sample-a</module>
+  </modules>
+</project>
