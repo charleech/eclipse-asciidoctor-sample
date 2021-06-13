@@ -1,0 +1,6 @@
+== Include Section
+
+[.lead]
+There is nothing special just include from `sub-directory`.
+
+include::./include/include-01.adoc[]
