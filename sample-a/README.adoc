@@ -6,6 +6,7 @@ Doc Writer <doc@example.com>
 :doctype: book
 :toc: left
 :toclevels: 6
+:forceinclude:
 // ============================================================================
 
 An introduction to http://asciidoc.org[AsciiDoc].
@@ -15,5 +16,9 @@ An introduction to http://asciidoc.org[AsciiDoc].
 * item 1
 * item 2
 
+{docdir}
+
 [source,ruby]
 puts "Hello, World!"
+
+include::./include/include-01.adoc[]

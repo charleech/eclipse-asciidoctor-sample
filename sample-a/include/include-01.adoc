@@ -1,0 +1,4 @@
+=== Include 1
+
+[.lead]
+This is an `include-01.adoc`.
